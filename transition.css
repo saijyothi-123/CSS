@@ -1,0 +1,34 @@
+
+/* trasition:change over time
+transition-property
+transition-duration */
+
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+div:hover{
+    background: black;
+}
+.one{
+    background: violet;
+}
+.two{
+    background:greenyellow;
+}
+.three{
+    background: cyan;
+    /* transition-property: background;
+    transition-duration: 3s; */
+    /* transition-property: background,border-radius; */
+    /* transition-duration: 3s,0.2s; */
+    /* transition-delay: 5s; */
+    /* transition: transition-property,transition-duration,transition-delay;
+    transition: background 4s 3s,border-radius 5s; */
+    transition: all 3s;
+}
+.three:hover{
+    background: black;
+    border-radius: 50%;
+}

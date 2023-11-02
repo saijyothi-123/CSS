@@ -1,0 +1,23 @@
+:root{
+    --primaryColor:blue;
+    --secondaryColor:red;
+    --mainTransition:all 0.4s linear;
+}
+.heading{
+    color: var(--primaryColor);
+}
+.heading:hover{
+    color: var(--secondaryColor);
+    transition: var(--mainTransition);
+}
+.secondHeading{
+    color: var(--primaryColor);
+}
+
+/* local scope */
+.mainDiv{
+    --primaryRed:red;
+}
+.mainText{
+    color: var(--primaryRed);
+}

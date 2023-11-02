@@ -1,0 +1,39 @@
+.main{
+    height: 1000px;
+    width: 500px;
+    /* border-style: groove ; */
+    /* position: relative; */
+    border: 5px solid red;
+    margin-top: 4rem;
+}
+.one{
+    width: 100px;
+    height: 100px;
+    background: #ff0000;
+    position: relative;
+    /* left: 50px; */
+    /* top: 50px; */
+    /* bottom: 2rem; */
+    /* right: 20%; */
+}
+.two{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    /* position: absolute; */
+    /* left: 10px; */
+    /* top: 20px; */
+    /* bottom: 10px; */
+}
+button{
+    padding: 10px 30px;
+    background: violet;
+    color: white;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 27px;
+    /* outline: none; */
+    position: fixed;
+    top: 0;
+    right: 0;
+}

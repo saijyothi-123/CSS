@@ -1,0 +1,55 @@
+/* Small screens and laptops:
+@media screen and (max-width: 1024px) {
+}
+
+iPads, Tablets:
+@media screen and (max-width: 768px) {
+}
+
+Mobile devices:
+@media screen and (max-width: 320px) {
+} */
+
+
+body{
+    background: yellowgreen;
+}
+.banner{
+    background: lightblue;
+}
+h1{
+    color: white;
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+@media  screen and (min-width:576px){
+    body{
+        background: blue;
+    }
+    .banner{
+        background: white;
+    }
+    h1{
+        font-size: 60px;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+    }
+}
+
+@media screen and (min-width:768px) {
+    body{
+        background: violet;
+    }
+    .banner{
+        background: orange;
+    }
+    h1{
+        font-size: 85px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+    }
+}

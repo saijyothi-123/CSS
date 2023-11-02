@@ -1,0 +1,40 @@
+
+
+div{
+    width: 200px;
+    height: 100px;
+    color: white;
+}
+.transition{
+    background: blue;
+    transition: all 1s linear;
+}
+.transition:hover{
+    transform: translateX(200px);
+}
+.animation{
+    background: red;
+    /* animation-name: movingAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: 2; */
+    
+    /* animation: animation-name,animation-duration,animation-iteration-count; */
+    animation: movingAnimation 7s infinite;
+}
+@keyframes movingAnimation{
+    0%{
+        transform: translateX(20px);
+    }
+    50%{
+        transform: translateX(200px);
+        background: black;
+    }
+    75%{
+        transform: translateX(-250px);
+        background: yellowgreen;
+    }
+    100%{
+        transform: translateX(20px);
+        background: lightcoral;
+    }
+}

@@ -1,0 +1,34 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 10px 25px;
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    font-size: 32px;
+    cursor: pointer;
+    /* outline: none; */
+    transition:all 0.7s ease-in-out;
+    border: 2px solid blue;
+}
+
+button:hover{
+    color: black;
+    background: transparent;
+}

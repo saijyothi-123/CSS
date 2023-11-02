@@ -1,0 +1,17 @@
+*{
+    color:aqua;
+}
+#heading{
+    font-size: 40px;
+    color: blueviolet;
+    text-transform: capitalize;
+}
+.heading{
+    font-size: 30px;
+    color: chartreuse;
+    text-transform: uppercase;
+}
+p{
+    letter-spacing: 7px;
+    color: deeppink;
+}

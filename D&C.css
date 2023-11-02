@@ -1,0 +1,30 @@
+
+/*body{
+    background: black;
+}
+div h1{
+    color: red;
+}
+/* div direct child is h1 */
+/* div > h1{
+    color: blue;
+}
+.header h1{
+    color: yellow;
+}
+.header > h1{
+    color: blanchedalmond;
+} */
+
+
+/* pseudo selectors */
+p::first-line{
+    font-weight: bold;
+    color: blue;
+}
+p{
+    text-indent: 100px;
+}
+p::first-letter{
+    font-size: 3rem;
+}

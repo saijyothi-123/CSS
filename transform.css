@@ -1,0 +1,42 @@
+
+/* transform: translate(),scale(),rotate(),skew() */
+
+
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+.one{
+    background: orangered;
+    /* transform: translate(50%); */
+    transform: translate(100%);
+    /* transform: translateX(30px);    (right side move) */
+    /* transform: translateX(-30px);   (left side move ) */
+    /* transform: scaleX(0.5); */
+    /* transform: scaleX(2); */
+    /* transform: rotate(45deg); */
+    /* transform: skewX(25deg); */
+    /* transform: skewX(-30deg); */
+}
+.two{
+    background: blue;
+    transform: translate(75px);
+    /* transform:translateY(30px); ( bottom )*/
+    /* transform: translateY(-50px);  ( top )*/
+    /* transform: scaleY(0.7); */
+    /* transform: scaleY(1.5); */
+    /* transform: rotateX(45deg); */
+    /* transform: rotateX(70deg); */
+    /* transform: rotateX(90deg); */
+    /* transform: skewY(20deg); */
+}
+.three{
+    background: green;
+    /* transform: translate(20px,40px);   (moves both sides right,left )*/
+    /* transform: scale(0.5,0.5); */
+    /* transform: rotateY(50deg); */
+    /* transform: rotateY(80deg); */
+    /* transform: skew(20deg,30deg); */
+    /* transform: skew(20deg);   (it takes only x-direction) */
+}
